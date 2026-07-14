@@ -1,0 +1,38 @@
+{
+  "tasks": [],
+  "users": [
+    {
+      "userId": "TemplatesvillaRDA",
+      "passwordHash": "Templatesvilla2026$#",
+      "role": "Admin",
+      "name": "System Admin"
+    },
+    {
+      "userId": "Bhutesh",
+      "passwordHash": "creator123",
+      "role": "Member",
+      "name": "Bhutesh"
+    },
+    {
+      "userId": "Dev",
+      "passwordHash": "creator123",
+      "role": "Member",
+      "name": "Dev"
+    },
+    {
+      "userId": "Pintu",
+      "passwordHash": "creator123",
+      "role": "Member",
+      "name": "Pintu"
+    },
+    {
+      "userId": "Sahil",
+      "passwordHash": "creator123",
+      "role": "Member",
+      "name": "Sahil"
+    }
+  ],
+  "expenses": [],
+  "googleDriveConfig": null,
+  "notifications": []
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Task and Ledger Management System",
+  "description": "A comprehensive task assignment, team tracking, client and creator ledger system with dynamic Google Drive file upload mapping.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

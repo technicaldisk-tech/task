@@ -1,0 +1,37 @@
+{
+  "entities": {
+    "AppState": {
+      "title": "AppState",
+      "description": "Unified database operational state containing tasks, users, expenses, drive configurations, and administrative notifications.",
+      "type": "object",
+      "properties": {
+        "tasks": {
+          "type": "array",
+          "description": "Active and completed tasks details"
+        },
+        "users": {
+          "type": "array",
+          "description": "Registered system user credentials and profiles"
+        },
+        "expenses": {
+          "type": "array",
+          "description": "Operational and personnel expenditures"
+        },
+        "googleDriveConfig": {
+          "type": "object",
+          "description": "Dynamic credentials and configurations for automated Google Drive operations"
+        },
+        "notifications": {
+          "type": "array",
+          "description": "Administrative notifications list"
+        }
+      }
+    }
+  },
+  "firestore": {
+    "/appState/database": {
+      "schema": "AppState",
+      "description": "Primary cloud backup and synchronization document for high-availability."
+    }
+  }
+}
